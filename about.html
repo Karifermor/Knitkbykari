@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ABOUT | KNITK</title>
+
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+  <!--Css stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+
+  <!--Font Awesome-->
+
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-a11y="true"></script>
+
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript">
+    function social(source) {
+      let url = "";
+      switch (source) {
+        case "facebook":
+          url = "https://www.facebook.com/KNITK-311501162820696";
+          break;
+        case "instagram":
+          url = "https://www.instagram.com/k.nit.k/";
+          break;
+        case "pinterest":
+          url = "https://www.pinterest.es/infoknitk/pins/";
+          break;
+        case "etsy":
+          url = "https://www.etsy.com/shop/KnitkstoreByKari?ref=seller-platform-mcnav";
+          break;
+        case "mail":
+          url = "mailto:karifernandezmorales@gmail.com";
+          break;
+
+        default:
+          // code block
+      }
+      window.open(
+        url, "_blank");
+    }
+  </script>
+</head>
+<body>
+
+  <section class="" id="title">
+    <!--Nav Bar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+
+      <img src="images/logo.PNG" alt="" class="logo" onclick=location.href='index.html' ;>
+      <!-- <h1 class="subtitle">Knit your dreams!</h1> -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                  <ul class="navbar-nav ml-auto">
+          
+                    <li class="nav-item">
+                      <a class="nav-link" href="products.html">Knitwear</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="patterns.html">Patterns</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="videos.html">Videos</a>
+                    </li>
+
+                  </ul>
+                </div>
+    </nav>
+  </section>
+
+  <div class="container my-4">
+
+    <div class="productDetail">
+      <h2>Hey!</h2>
+      <hr class="line-detail">
+      <p>My name is Karina but people who know me call me Kari. I was born and raised in Uruguay a small country in Latin America and now I live in the Golden State, California.</p>
+      <p>I learned to crochet with my grandmother when I was 8 years old and years later I fell in love with knitting. Now I am focused on creating and selling patterns and knitwear.</p>
+      <p>I hope you enjoy and love my creations as much as I do! 🤍</p>
+      <br>
+      <br>
+      <br>
+      <p>Contact me for custom knitwear: <label class="bold-label">infoknitk@gmail.com</label> </p>
+
+      <br>
+      <a href="https://www.etsy.com/shop/KnitkstoreByKari?ref=simple-shop-header-name&listing_id=891484545" class="myButton">SHOP NOW</a>
+    </div>
+
+
+    <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active img-container-detail">
+            <img class="d-block w-100 imageFoto" src="images/profile-Photo1.jpg">
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <!-- Footer Section -->
+
+  <footer class="white-section" id="footer">
+
+    <div class="footerIcons">
+      <p class="keep-in-touch">Let's Keep In Touch</p>
+      <i class="social-icon fab fa-facebook-f" onclick="social('facebook')"></i>
+      <i class="social-icon fab fa-instagram" onclick="social('instagram')"></i>
+      <i class="social-icon fab fa-pinterest" onclick="social('pinterest')"></i>
+      <i class="social-icon fab fa-etsy" onclick="social('etsy')"></i>
+      <i class="social-icon fas fa-envelope" onclick="social('mail')"></i>
+
+      <p class="copyright">© Copyright 2020 Knitk</p>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

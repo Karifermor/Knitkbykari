@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Knitk</title>
+
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+  <!--Css stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+
+  <!--Font Awesome-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-a11y="true"></script>
+
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript">
+    function social(source) {
+      let url = "";
+      switch (source) {
+        case "facebook":
+          url = "https://www.facebook.com/KNITK-311501162820696";
+          break;
+        case "instagram":
+          url = "https://www.instagram.com/k.nit.k/";
+          break;
+        case "pinterest":
+          url = "https://www.pinterest.es/infoknitk/pins/";
+          break;
+        case "etsy":
+          url = "https://www.etsy.com/shop/KnitkstoreByKari?ref=seller-platform-mcnav";
+          break;
+        case "mail":
+          url = "mailto:karifernandezmorales@gmail.com";
+          break;
+
+        default:
+          // code block
+      }
+      window.open(
+        url, "_blank");
+    }
+  </script>
+
+</head>
+
+<body>
+  <section class="" id="title">
+
+
+    <!--Nav Bar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+
+      <img src="images/logo.PNG" alt="" class="logo" onclick=location.href='index.html' ;>
+      <!-- <h1 class="subtitle">Knit your dreams!</h1> -->
+
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Knitwear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="patterns.html">Patterns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About me</a>
+          </li>
+        </ul>
+
+
+        <!-- <div class="lupa">
+          <input class="searchText" type="search" placeholder="Search" aria-label="Search">
+          <img class="lupita" src="images/busqueda.png" alt="">
+        </div> -->
+
+      </div>
+    </nav>
+  </section>
+
+
+
+
+
+  <!-- Carousel Section -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/carousel-garment.png" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>KNITWEAR</h5>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel-techniques.png" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TECHNIQUES</h5>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel-stitches.png" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>STITCHES</h5>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel-crochet.png" alt="Fourth slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CROCHET</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Images Section -->
+  <section class="white-section" id="">
+    <div class="centerdiv">
+
+      <div class="imageContainer" onclick=location.href='products.html' ;>
+        <img src="images/section-knitwear.JPG" class="thumbnail img-fluid" onclick="coso()" alt="Responsive image">
+        <div class="centered">KNITWEAR</div>
+        <!-- <a href="products.html" class="centered">Knitwear</a> -->
+      </div>
+
+      <div class="imageContainer" onclick=location.href='patterns.html' ;>
+        <img src="images/section-pattern.jpg" class="thumbnail img-fluid" alt="Responsive image">
+        <div class="centered">PATTERNS</div>
+      </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="white-section" id="">
+    <div class="centerdiv">
+
+      <div class="imageContainer" onclick=location.href='videos.html' ;>
+        <img src="images/section-videos.jpg" class="thumbnail img-fluid" alt="Responsive image">
+        <div class="centered">KNITTING VLOGS</div>
+      </div>
+
+      <div class="imageContainer" onclick=location.href='videos.html#tutorials' ;>
+        <img src="images/section-tutorials.jpg" class="thumbnail img-fluid" alt="Responsive image">
+        <div class="centered">TUTORIALS</div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Techniques Section -->
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <img class="technique-image" src="images/Back-and-Forth.jpg" alt="">
+          <h3 class="feature-title">Back and Forth</h3>
+          <p class="feature-description">Back and Forth is the most common way of knitting. With this technique you will be able to knit your own cardigan.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <img class="technique-image" src="images/In-the-Round.jpg" alt="">
+          <h3 class="feature-title">In the Round</h3>
+          <p class="feature-description">You can also knit your sweater in the Round with circular needles, my favorite and faster technique. You will have finished your sweater in a few days.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <img class="technique-image" src="images/Both.jpg" alt="">
+          <h3 class="feature-title">Both</h3>
+          <p class="feature-description">But there is something that we love even more and that is to combine both techniques, I take the best of each one and the results are fantastic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer Section -->
+
+  <footer class="white-section" id="footer">
+
+    <div class="footerIcons">
+      <p class="keep-in-touch">Let's Keep In Touch</p>
+      <i class="social-icon fab fa-facebook-f" onclick="social('facebook')"></i>
+      <i class="social-icon fab fa-instagram" onclick="social('instagram')"></i>
+      <i class="social-icon fab fa-pinterest" onclick="social('pinterest')"></i>
+      <i class="social-icon fab fa-etsy" onclick="social('etsy')"></i>
+      <i class="social-icon fas fa-envelope" onclick="social('mail')"></i>
+
+      <p class="copyright">© Copyright 2020 Knitk</p>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
