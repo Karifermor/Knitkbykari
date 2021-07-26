@@ -1,4 +1,29 @@
 
+
+h2, h6 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  width: 30%;
+}
+
+#carousel-thumb {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+#footer{
+  background-color: #f5f5f5;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+
 .numbers{
   font-size: 1.5rem;
 }
@@ -37,23 +62,33 @@
   margin: 5% 20%;
 }
 
-.myButton:hover {
+.buttonIdiomas{
+  box-shadow: inset 0 1px 0 0 #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #b0abab;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #5c5c5c;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  margin: 5%;
+}
+
+.hoverBehaviour:hover{
   color: #a3a3a3;
   transform: scale(1.1);
 }
 
-.myButton:active {
+.hoverBehaviour:active{
   position: relative;
   top: 1px;
 }
 
-#carousel-thumb {
-  position: relative;
-  text-align: center;
-  color: white;
-  width: 100%;
-  height: 100%;
-}
 
 .my-4 {
   width: 100%;
@@ -308,15 +343,6 @@
 }
 
 
-h2, h6 {
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-hr {
-  width: 30%;
-}
-
 .story {
   color: gray;
   font-style: italic;
@@ -328,7 +354,7 @@ hr {
 }
 
 .youtubeContainer {
-  padding-left: 15%;
+text-align: center;
 }
 
 .youtubeVideo {
@@ -463,11 +489,6 @@ hr {
   margin-top: 3rem;
 }
 
-#footer{
-  background-color: #f5f5f5;
-  margin-top: 3rem;
-}
-
 
 
 /* Footer Section*/
@@ -497,15 +518,7 @@ hr {
   cursor: default;
 }
 
-/* .searchText{
-  border-width:1px;
-  border-color: #acacac;
-  border-radius: 7px;
-  height: 25px;
-  width: 60%;
-  min-width: 45px;
-  margin-left: 5px;
-} */
+
 .nav-item {
   min-width: 80px;
 }
@@ -522,9 +535,7 @@ hr {
   padding: 5%;
 }
 
-#features {
-  position: relative;
-}
+
 
 .feature-title {
   font-weight: 600;
@@ -536,10 +547,7 @@ hr {
   text-align: justify;
 }
 
-/* .containerrr {
-  padding: 5%;
-  text-align: center;
-} */
+
 
 .imageFoto {
   border-radius: 100%;
@@ -551,11 +559,6 @@ hr {
 .productsBar {
   margin-bottom: 150px;
 }
-
-
-/* .image-Product{
-cursor: pointer;
-} */
 
 
 
